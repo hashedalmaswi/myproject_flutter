@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// صفحة "حول التطبيق": معلومات، نسخة، ملاحظات أمنية، وشكر
+/// صفة "حول التطبيق": معلومات، نسخة، ملاحظات أمنية، وشكر
 class AboutPage extends StatelessWidget {
   const AboutPage({super.key});
 
