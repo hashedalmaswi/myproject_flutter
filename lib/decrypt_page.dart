@@ -76,7 +76,7 @@ class _DecryptPageState extends State<DecryptPage> {
     return DropdownButtonFormField<String>(
       value: _algorithm,
       decoration: const InputDecoration(
-        labelText: 'اتر الخوارزمية',
+        labelText: 'ر الخوارزمية',
         border: OutlineInputBorder(),
         prefixIcon: Icon(Icons.security),
       ),
