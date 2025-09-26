@@ -120,7 +120,7 @@ class _DecryptPageState extends State<DecryptPage> {
                 TextField(
                   controller: _customKey,
                   decoration: const InputDecoration(
-                    labelText: 'مفتاح AES الصص',
+                    labelText: 'مفتاحES الصص',
                     border: OutlineInputBorder(),
                     prefixIcon: Icon(Icons.vpn_key),
                     helperText: 'ل تا 3حرفًا',
