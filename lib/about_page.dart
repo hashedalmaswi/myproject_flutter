@@ -30,6 +30,7 @@ class AboutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final primary = Theme.of(context).primaryColor;
     return Scaffold(
+      
       appBar: AppBar(title: const Text('ℹ حول التطبيق')),
       body: ListView(
         padding: const EdgeInsets.all(16),

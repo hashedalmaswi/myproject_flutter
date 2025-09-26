@@ -19,6 +19,7 @@ class _DecryptPageState extends State<DecryptPage> {
   String _algorithm = 'AES';
   String _output = '';
   bool _useCustomKey = false;
+  
 
   final _algos = const ['AES', 'Base64', 'Caesar'];
 
