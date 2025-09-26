@@ -62,7 +62,7 @@ class _DecryptPageState extends State<DecryptPage> {
     if (_output.isEmpty) return;
     Clipboard.setData(ClipboardData(text: _output));
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text(' نسخص المفكوك')),
+      const SnackBar(content: Text(' نسخالمفكوك')),
     );
   }
 
