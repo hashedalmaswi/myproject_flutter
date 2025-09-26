@@ -123,8 +123,8 @@ class _DecryptPageState extends State<DecryptPage> {
                     labelText: 'مفتاح AES المخصص',
                     border: OutlineInputBorder(),
                     prefixIcon: Icon(Icons.vpn_key),
-                    helperText: 'سيتم اول تلقائيًا إلى 32 حرفًا',
-                  ),
+                    helperText: 'سياول تلقائيًا إلى 32 حرفًا',
+            
                 ),
             ],
             const SizedBox(height: 12),
