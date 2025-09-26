@@ -19,7 +19,7 @@ class _DecryptPageState extends State<DecryptPage> {
   String _algorithm = 'AES';
   String _output = '';
   bool _useCustomKey = false;
-  
+
 
   final _algos = const ['AES', 'Base64', 'Caesar'];
 
@@ -28,7 +28,7 @@ class _DecryptPageState extends State<DecryptPage> {
     final text = _input.text.trim();
     if (text.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('رجاءً أدخل النص المشفر')),
+        const SnackBar(content: Text('رجاءًل النص المشفر')),
       );
       return;
     }
