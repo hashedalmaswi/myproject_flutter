@@ -123,7 +123,7 @@ class _DecryptPageState extends State<DecryptPage> {
                     labelText: 'مفتاحالصص',
                     border: OutlineInputBorder(),
                     prefixIcon: Icon(Icons.vpn_key),
-                    helperText: 'لا 3حرفًا',
+                    helperText: 'لا رفًا',
             
                 ),
             ],
