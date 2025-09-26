@@ -28,7 +28,7 @@ class _DecryptPageState extends State<DecryptPage> {
     final text = _input.text.trim();
     if (text.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('المشف')),
+        const SnackBar(content: Text('مشف')),
       );
       return;
     }
