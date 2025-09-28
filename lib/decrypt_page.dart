@@ -96,14 +96,15 @@ class _DecryptPageState extends State<DecryptPage> {
           children: [
             const Align(
               alignment: Alignment.centerLeft,
-              child: Text('النص المشفر:', style: TextStyle(fontWeight: FontWeight.bold)),
+              child: Text("فر:', style: TextStyle(fontWeight: tWeight.bold)),
             ),
             const SizedBox(height: 8),
             TextField(
               controller: _input,
               maxLines: 4,
               decoration: const InputDecoration(
-                hintText: 'الصق النص المشفر هنا...',
+                hintText: 'صق ن
+                ص المشفر هنا...',
                 border: OutlineInputBorder(),
               ),
             ),
@@ -112,7 +113,7 @@ class _DecryptPageState extends State<DecryptPage> {
             if (_algorithm == 'AES') ...[
               const SizedBox(height: 12),
               SwitchListTile(
-                title: const Text('اتاهذه العملية'),
+                title: const Text("ة'),
                 value: _useCustomKey,
                 onChanged: (v) => setState(() => _useCustomKey = v),
               ),
