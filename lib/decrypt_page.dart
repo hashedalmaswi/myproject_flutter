@@ -112,7 +112,7 @@ class _DecryptPageState extends State<DecryptPage> {
             if (_algorithm == 'AES') ...[
               const SizedBox(height: 12),
               SwitchListTile(
-                title: const Text('عملية'),
+                title: const Text('لية'),
                 value: _useCustomKey,
                 onChanged: (v) => setState(() => _useCustomKey = v),
               ),
