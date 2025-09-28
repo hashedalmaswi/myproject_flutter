@@ -103,7 +103,7 @@ class _DecryptPageState extends State<DecryptPage> {
               controller: _input,
               maxLines: 4,
               decoration: const InputDecoration(
-                hintText: 'الصق النص المشفر هنا...',
+                hintText: 'الالنص المشفر هنا...',
                 border: OutlineInputBorder(),
               ),
             ),
@@ -112,7 +112,7 @@ class _DecryptPageState extends State<DecryptPage> {
             if (_algorithm == 'AES') ...[
               const SizedBox(height: 12),
               SwitchListTile(
-                title: const Text('اتاهذه العملية'),
+                title: const Text('اهملية'),
                 value: _useCustomKey,
                 onChanged: (v) => setState(() => _useCustomKey = v),
               ),
