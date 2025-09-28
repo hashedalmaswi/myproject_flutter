@@ -96,7 +96,7 @@ class _DecryptPageState extends State<DecryptPage> {
           children: [
             const Align(
               alignment: Alignment.centerLeft,
-              child: Text("لفر:', style: TextStyle(fontWeight: tWeight.bold)),
+              child: Text("فر:', style: TextStyle(fontWeight: tWeight.bold)),
             ),
             const SizedBox(height: 8),
             TextField(
