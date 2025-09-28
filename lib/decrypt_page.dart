@@ -103,7 +103,7 @@ class _DecryptPageState extends State<DecryptPage> {
               controller: _input,
               maxLines: 4,
               decoration: const InputDecoration(
-                hintText: 'الصق النص المشفر هنا...',
+                hintText: 'الالنص المشفر هنا...',
                 border: OutlineInputBorder(),
               ),
             ),
